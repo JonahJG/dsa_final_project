@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Numbers</title>
+</head>
+<body>
+<h2>Enter Numbers</h2>
+
+<form action="/" method="post">
+    <label for="numbers">Enter Numbers (comma-separated):</label>
+    <input type="text" id="numbers" name="numbers" required>
+    <button type="submit">Submit</button>
+</form>
+
+<p>View the processed binary tree: <a href="/process-numbers">Click here</a>.</p>
+<p>See previous binary trees: <a href="/previous-trees">Click here</a>.</p>
+</body>
+</html>
